@@ -1,0 +1,12 @@
+name: WordCloud
+title: WordCloud
+username:
+account: misterliver52
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 301413
+bundleId: 1274099
+url: https://misterliver52.shinyapps.io/WordCloud/
+when: 1521325777.19733
+asMultiple: FALSE
+asStatic: FALSE

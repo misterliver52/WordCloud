@@ -19,7 +19,14 @@ fluidPage(
                 
                 # Show Word Cloud
                 mainPanel(
-                        plotOutput("plot","800px", "600px")
-                )
-        )
+                        tabsetPanel(type="tabs",
+                        tabPanel("Application",
+                                 plotOutput("plot","800px", "600px")
+                                 ),
+                # Documentation for how the app works
+                        tabPanel(
+                                "Documentation",
+                                mainPanel(includeMarkdown("README.md"))
+                                )
+                        )))
 )
