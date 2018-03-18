@@ -1,7 +1,7 @@
 library(tm)
 library(wordcloud)
 library(memoise)
-
+library(markdown)
 # The list of valid poets
 poets <<- list("Henry Wordsworth Longfellow" = "longfellow",
                "William Blake" = "blake",
